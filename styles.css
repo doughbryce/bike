@@ -47,9 +47,6 @@ margin-top: 5%;
 	margin: 3%;
 }
 /*MOUNTAIN, ROAD, BEACH*/
-.mrb{
-/*background: black;*/
-}
 #banner{
 	width: 100%;
 	position: absolute;
@@ -66,11 +63,44 @@ background: transparent;
 	margin: 6% 3.5%;
 }
 /*MOUNTAIN*/
-#mb1{
-	width: 60%;
-	/*float: right;*/
+.mbike1{
+	margin-top: 17%;
+	text-align: center;
 }
-/*BEACH*/
+#originmb, #h3mb{
+	padding: 3%;
+	width: 30%;
+	clear: left;
+	font-size: 2em;
+}
+#mb1{
+	display: inline;
+	width: 60%;
+	z-index: -3;
+}
+.mbike2, .mbike3{
+	text-align: center;
+}
+#originmb2, #h3mb2{
+	padding: 3%;
+	width: 30%;
+	clear: right;
+	font-size: 2em;
+}
+#mb2{
+	display: inline;
+	width: 60%;
+}
+#originmb3, #h3mb3{
+	padding: 3%;
+	width: 30%;
+	clear: right;
+	font-size: 2em;
+}
+#mb2{
+	display: inline;
+	width: 60%;
+}/*BEACH*/
 
 /*ROAD*/
 
