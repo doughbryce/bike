@@ -73,10 +73,9 @@ background: transparent;
 	clear: left;
 	font-size: 2em;
 }
-#mb1{
+#mb1, #mb2, #mb3{
 	display: inline;
 	width: 60%;
-	z-index: -3;
 }
 .mbike2, .mbike3{
 	text-align: center;
@@ -87,22 +86,42 @@ background: transparent;
 	clear: right;
 	font-size: 2em;
 }
-#mb2{
-	display: inline;
-	width: 60%;
-}
 #originmb3, #h3mb3{
 	padding: 3%;
 	width: 93%;
 	clear: right;
 	font-size: 2em;
 }
-#mb2{
+/*BEACH*/
+.cbike1{
+	margin-top: 17%;
+	text-align: center;
+}
+#origincb, #h3cb{
+	padding: 3%;
+	width: 93%;
+	clear: left;
+	font-size: 2em;
+}
+.cbike2, .cbike3{
+	text-align: center;
+}
+#origincb2, #h3cb2{
+	padding: 3%;
+	width: 93%;
+	clear: right;
+	font-size: 2em;
+}
+#origincb3, #h3cb3{
+	padding: 3%;
+	width: 93%;
+	clear: right;
+	font-size: 2em;
+}
+#cb1, #cb2, #cb3{
 	display: inline;
 	width: 60%;
 }
-/*BEACH*/
-
 /*ROAD*/
 .rbike1{
 	margin-top: 17%;
@@ -114,11 +133,6 @@ background: transparent;
 	clear: left;
 	font-size: 2em;
 }
-#rb1{
-	display: inline;
-	width: 60%;
-	z-index: -3;
-}
 .rbike2, .rbike3{
 	text-align: center;
 }
@@ -128,30 +142,13 @@ background: transparent;
 	clear: right;
 	font-size: 2em;
 }
-#rb2{
-	display: inline;
-	width: 60%;
-}
 #originrb3, #h3rb3{
 	padding: 3%;
 	width: 93%;
 	clear: right;
 	font-size: 2em;
 }
-#rb2{
+#rb1, #rb2, #rb3{
 	display: inline;
 	width: 60%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
