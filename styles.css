@@ -1,7 +1,6 @@
 /*INDEX*/
 *{
 font-family: 'Montserrat', sans-serif;
-/*text-align: center;*/
 overflow: auto;
 margin: 0px;
 }
@@ -17,7 +16,7 @@ head{
 }
 .section{
 	background: #1282A2;
-	text-align: center
+	text-align: center;
 }
 #race{
 	width: 100%;
@@ -25,15 +24,15 @@ head{
 #name{
 	float: left;
 	position: absolute;
-	margin-top: 11.5%;
-	margin-left: 2.5%;
+	margin-top: 12.5%;
+	margin-left: 3.3%;
 }
 #type{
 	float: right;
 width: 10%;
 margin-left: 6%;
 margin-right: 4%;
-margin-top: 5%
+margin-top: 5%;
 }
 #words{
 	position: relative;
@@ -44,23 +43,44 @@ margin-top: 5%
 }
 .head{
 	float: left;
-	margin: 2%;
-}
-/*#logo{
-float: left;
-margin: 2%;
-}*/
-
-/*#type{
-	width: 10%;
-	float: right;
 	margin: 3%;
-}*/
-
+}
+/*MOUNTAIN, ROAD, BEACH*/
+.mrb{
+/*background: black;*/
+}
+#banner{
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+.head1{
+position: absolute;
+margin: 3%;
+background: transparent;
+}
+.h1{
+	/*border: solid;*/
+	position: relative;
+	float: right;
+	margin: 6% 3.5%;
+}
 /*MOUNTAIN*/
-
 
 /*BEACH*/
 
+/*ROAD*/
 
-/*ROAD
+
+
+
+
+
+
+
+
+
+
+
+
+
