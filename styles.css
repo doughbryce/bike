@@ -100,10 +100,48 @@ background: transparent;
 #mb2{
 	display: inline;
 	width: 60%;
-}/*BEACH*/
+}
+/*BEACH*/
 
 /*ROAD*/
-
+.rbike1{
+	margin-top: 17%;
+	text-align: center;
+}
+#originrb, #h3rb{
+	padding: 3%;
+	width: 93%;
+	clear: left;
+	font-size: 2em;
+}
+#rb1{
+	display: inline;
+	width: 60%;
+	z-index: -3;
+}
+.rbike2, .rbike3{
+	text-align: center;
+}
+#originrb2, #h3rb2{
+	padding: 3%;
+	width: 93%;
+	clear: right;
+	font-size: 2em;
+}
+#rb2{
+	display: inline;
+	width: 60%;
+}
+#originrb3, #h3rb3{
+	padding: 3%;
+	width: 93%;
+	clear: right;
+	font-size: 2em;
+}
+#rb2{
+	display: inline;
+	width: 60%;
+}
 
 
 
