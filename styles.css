@@ -3,7 +3,7 @@
 font-family: 'Montserrat', sans-serif;
 overflow: auto;
 margin: 0px;
-border: solid;
+/*border: solid;*/
 }
 footer{
 	text-align: center;
@@ -69,7 +69,7 @@ background: transparent;
 }
 #originmb, #h3mb{
 	padding: 3%;
-	width: 30%;
+	width: 93%;
 	clear: left;
 	font-size: 2em;
 }
@@ -83,7 +83,7 @@ background: transparent;
 }
 #originmb2, #h3mb2{
 	padding: 3%;
-	width: 30%;
+	width: 93%;
 	clear: right;
 	font-size: 2em;
 }
@@ -93,7 +93,7 @@ background: transparent;
 }
 #originmb3, #h3mb3{
 	padding: 3%;
-	width: 30%;
+	width: 93%;
 	clear: right;
 	font-size: 2em;
 }
