@@ -1,8 +1,31 @@
 /*INDEX*/
 *{
 font-family: 'Montserrat', sans-serif;
+text-align: center;
+overflow: auto;
+margin: 0px;
 }
-
+.links{
+float: right;
+margin: 6%;
+}
+.head{
+	background: #1282A2;
+	margin: 0px;
+}
+#logo{
+float: left;
+margin: 2%;
+}
+.section{
+width: 100%;
+}
+#race{
+	width: 100%;
+}
+#type{
+	width: 4%;
+}
 /*MOUNTAIN*/
 
 
