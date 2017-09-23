@@ -5,22 +5,46 @@ font-family: 'Montserrat', sans-serif;
 overflow: auto;
 margin: 0px;
 }
+footer{
+	text-align: center;
+	padding: 10%;
+	line-height: 3em;
+	word-spacing: 3px;
+	background: #1282A2;
+}
+head{
+	position: fixed;
+}
 .section{
 	background: #1282A2;
+	text-align: center
 }
 #race{
 	width: 100%;
 }
-#type{
-width: 10%;
-float: right;
+#name{
+	float: left;
+	position: absolute;
+	margin-top: 11.5%;
+	margin-left: 2.5%;
 }
-/*#name{
-margin: 5%;
-}*/
+#type{
+	float: right;
+width: 10%;
+margin-left: 6%;
+margin-right: 4%;
+margin-top: 5%
+}
+#words{
+	position: relative;
+	float: right;
+	word-spacing: 4500%;
+	margin-bottom: 2%;
+	margin-right: 4%;
+}
 .head{
-	background: #1282A2;
-	margin: 0px;
+	float: left;
+	margin: 2%;
 }
 /*#logo{
 float: left;
@@ -32,10 +56,7 @@ margin: 2%;
 	float: right;
 	margin: 3%;
 }*/
-footer{
-	text-align: center;
-	size: 2em;
-}
+
 /*MOUNTAIN*/
 
 
