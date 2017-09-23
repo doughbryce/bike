@@ -1,30 +1,40 @@
 /*INDEX*/
 *{
 font-family: 'Montserrat', sans-serif;
-text-align: center;
+/*text-align: center;*/
 overflow: auto;
 margin: 0px;
 }
-.links{
-float: right;
-margin: 6%;
-}
-.head{
-	background: #1282A2;
-	margin: 0px;
-}
-#logo{
-float: left;
-margin: 2%;
-}
 .section{
-width: 100%;
+	background: #1282A2;
 }
 #race{
 	width: 100%;
 }
 #type{
-	width: 4%;
+width: 10%;
+float: right;
+}
+/*#name{
+margin: 5%;
+}*/
+.head{
+	background: #1282A2;
+	margin: 0px;
+}
+/*#logo{
+float: left;
+margin: 2%;
+}*/
+
+/*#type{
+	width: 10%;
+	float: right;
+	margin: 3%;
+}*/
+footer{
+	text-align: center;
+	size: 2em;
 }
 /*MOUNTAIN*/
 
