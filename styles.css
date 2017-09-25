@@ -5,6 +5,14 @@ overflow: auto;
 margin: 0px;
 /*border: solid;*/
 }
+.title{
+	text-align: center;
+	padding: 2%;
+	margin-top: -10px;
+	background: #034078;
+	color: white;
+	font-size: 1.3em;
+}
 footer{
 	text-align: center;
 	padding: 10%;
@@ -38,9 +46,9 @@ margin-top: 5%;
 #words{
 	position: relative;
 	float: right;
-	word-spacing: 4500%;
+	word-spacing: 4300%;
 	margin-bottom: 2%;
-	margin-right: 4%;
+	margin-right: 6%;
 }
 .head{
 	float: left;
