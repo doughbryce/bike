@@ -7,9 +7,17 @@ margin: 0px;
 }
 .title{
 	text-align: center;
-	padding: 2%;
+	padding: 3%;
 	margin-top: -10px;
 	background: #034078;
+	color: white;
+	font-size: 1.3em;
+}
+.info{
+	text-align: center;
+	padding: 5%;
+	margin-top: -10px;
+	background: #001F54;
 	color: white;
 	font-size: 1.3em;
 }
@@ -18,10 +26,15 @@ footer{
 	padding: 10%;
 	line-height: 3em;
 	word-spacing: 3px;
-	background: #1282A2;
+	background: #0A1128;
+	margin-top: -10px;
+	color: white;
 }
 head{
 	position: fixed;
+}
+#paly{
+	color: white;
 }
 .section{
 	background: #1282A2;
@@ -70,6 +83,17 @@ background: transparent;
 	float: right;
 	margin: 6% 3.5%;
 }
+#namehome{
+	float: left;
+	position: absolute;
+	margin-top: 12.5%;
+	margin-left: 5.7%;
+	color: white;
+}
+/*.cbike1, .cbike2, .cbike3, .rbike1, .rbike2, .rbike3, .mbike1, .mbike2, .mbike3{
+	background: #034078;
+	color: white;
+}*/
 /*MOUNTAIN*/
 .mbike1{
 	margin-top: 17%;
