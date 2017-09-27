@@ -1,0 +1,69 @@
+*{
+font-family: 'Montserrat', sans-serif;
+overflow: auto;
+margin: 0px;
+/*border: solid;*/
+}
+.mbike1{
+	margin-top: 15.5%;
+	text-align: center;
+	width: 100%;
+}
+#originmb, #h3mb{
+	padding: 3%;
+	width: 93%;
+	clear: left;
+	font-size: 2em;
+}
+#mb1, #mb2, #mb3{
+	display: inline;
+	width: 60%;
+}
+.mbike2, .mbike3{
+	text-align: center;
+}
+#originmb2, #h3mb2{
+	padding: 3%;
+	width: 93%;
+	clear: right;
+	font-size: 2em;
+}
+#originmb3, #h3mb3{
+	padding: 3%;
+	width: 93%;
+	clear: right;
+	font-size: 2em;
+}
+#originmb, #originmb2, #originmb3{
+	background: #034078;
+	margin: 0px;
+
+}
+/*EVERY SITE - NOT DRY CODE*/
+#banner{
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+.head1{
+position: absolute;
+margin: 3%;
+background: transparent;
+}
+.h1{
+	position: relative;
+	float: right;
+	margin: 6% 3.5%;
+	border: solid;
+}
+#namehome{
+	float: left;
+	position: absolute;
+	margin-top: 12.5%;
+	margin-left: 5.7%;
+	color: white;
+}
+.cbike1, .cbike2, .cbike3, .rbike1, .rbike2, .rbike3, .mbike1, .mbike2, .mbike3{
+	
+	color: white;
+}
