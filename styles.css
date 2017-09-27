@@ -3,17 +3,15 @@
 font-family: 'Montserrat', sans-serif;
 overflow: auto;
 margin: 0px;
-/*border: solid;*/
+border: solid;
 }
-#links_in_header{
-	float: right;
-	
-	margin-left: 6%;
-	margin-right: 4%;
-	margin-top: 5%;
+.header{
+
 }
-#type{
-	width: 2%;
+section>section{
+ float: right;
+ margin: 2%;
+ text-align: center;
 }
 /*SECTION1 - Tour de France*/
 .title{
@@ -41,9 +39,6 @@ footer{
 	margin-top: -10px;
 	color: white;
 }
-head{
-	position: fixed;
-}
 #paly{
 	color: white;
 }
@@ -66,8 +61,4 @@ head{
 	word-spacing: 4300%;
 	margin-bottom: 2%;
 	margin-right: 6%;
-}
-.head{
-	float: left;
-	margin: 3%;
 }
