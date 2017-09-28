@@ -1,0 +1,15 @@
+/*HEADER*/
+header{
+	padding: 1%;
+	margin: -10px;
+	margin-top: -20px;
+	background: #5AAA95;
+	width: 100%;
+	position: fixed;
+}
+#image_icon_header{
+	float: right;
+	margin: 2%;
+	margin-bottom: 1%
+}
+/*Section1 - Tour de France*/
