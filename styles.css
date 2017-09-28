@@ -2,14 +2,28 @@
 header{
 	padding: 1%;
 	margin: -10px;
-	margin-top: -20px;
+	margin-top: -215px;
 	background: #5AAA95;
 	width: 100%;
 	position: fixed;
+	z-index: 5;
 }
 #image_icon_header{
 	float: right;
 	margin: 2%;
 	margin-bottom: 1%
 }
+/*---------------------------------------------*/
 /*Section1 - Tour de France*/
+.tour_section{
+	position: relative;
+	border: solid;
+}
+/*image-tour*/
+#tour_race{
+		margin: 0;
+	padding: 0;
+	width: 100%;
+	z-index: -5;
+}
+/*image-tour_logo*/
