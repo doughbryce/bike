@@ -26,6 +26,7 @@ header{
 /*----------------------------------------------------------------------*/
 /*Footer*/
 footer{
+	text-align: center;
 	z-index: 4;
 	position: relative;
 	text-align: center;
