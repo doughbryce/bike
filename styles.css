@@ -101,7 +101,8 @@ header{
 /*------------------------------------------------------*/
 /*Footer*/
 footer{
-	margin-top: -10px;
+	z-index: 4;
+	margin-top: -150px;
 	position: relative;
 	text-align: center;
 	background: #5AAA95;
@@ -113,9 +114,3 @@ footer{
 footer>a{
 	color: white;
 }
-
-
-
-
-
-
