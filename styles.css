@@ -1,29 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*border: solid;*/
+	overflow: auto;
+}
 /*HEADER*/
 header{
-	padding: 1%;
-	margin: -10px;
-	margin-top: -215px;
+	top: 0;
+	padding: .5%;
 	background: #5AAA95;
 	width: 100%;
 	position: fixed;
 	z-index: 5;
+	overflow: hidden;
+}
+#home_button{
+	padding-left: 1%;
 }
 #image_icon_header{
 	float: right;
-	margin: 2%;
-	margin-bottom: 1%
+	margin: 1%;
 }
 /*---------------------------------------------*/
 /*Section1 - Tour de France*/
 .tour_section{
-	position: relative;
-	border: solid;
-}
-/*image-tour*/
-#tour_race{
-		margin: 0;
-	padding: 0;
+	z-index: 0;
+	position: fixed;
 	width: 100%;
-	z-index: -5;
+}
+/*Tour race image link*/
+#tour_race{
+	width: 100%;
 }
 /*image-tour_logo*/
+#tour_info{
+	font-family: Montserrat;
+	width: 25%;
+	position: absolute;
+	top: 170px;
+	left: 100px;
+	background: #5AAA95;
+	padding: 3%;
+	border: 3px solid #5AAA95;
+	border-radius: 1000px;
+	font-size: 130%;
+	text-align: center;
+}
+/*--------------------------------------------------------------------*/
+/*Section 2 - Rampage*/
+.rampage_section{
+	z-index: 1
+	padding-top: 1448px;
+	position: relative;
+	width: 100%;
+}
+/*Rampage race image link*/
+#rampage_race{
+	width: 100%;
+}
+/*rampage information*/
+#rampage_info{
+	font-family: Montserrat;
+	width: 25%;
+	position: absolute;
+	top: 170px;
+	left: 100px;
+	background: #5AAA95;
+	padding: 3%;
+	border: 3px solid #5AAA95;
+	border-radius: 1000px;
+	font-size: 130%;
+	text-align: center;
+}
+/*---------------------------------------------------------------*/
+/*Section 3 - iditarod section*/
+.iditarod_section{
+	z-index: 2;
+	position: relative;
+	width: 100%;
+	margin-top: 800px;
+}
+/*Iditarod race image link*/
+#iditarod_race{
+	width: 100%;
+}
+/*race info iditarod*/
+#iditarod_info{
+	font-family: Montserrat;
+	width: 25%;
+	position: absolute;
+	top: 170px;
+	left: 700px;
+	background: #5AAA95;
+	padding: 3%;
+	border: 3px solid #5AAA95;
+	border-radius: 1000px;
+	font-size: 130%;
+	text-align: center;
+}
+/*------------------------------------------------------*/
+/*Footer*/
+footer{
+	margin-top: -10px;
+	position: relative;
+	text-align: center;
+	background: #5AAA95;
+	padding: 3%;
+	color: white;
+	font-family: Montserrat;
+	font-size: 130%;
+}
+footer>a{
+	color: white;
+}
+
+
+
+
+
+
