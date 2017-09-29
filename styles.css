@@ -1,186 +1,116 @@
-/*INDEX*/
 *{
-font-family: 'Montserrat', sans-serif;
-overflow: auto;
-margin: 0px;
-/*border: solid;*/
+	margin: 0;
+	padding: 0;
+	/*border: solid;*/
+	overflow: auto;
 }
-.title{
-	text-align: center;
-	padding: 3%;
-	margin-top: -10px;
-	background: #034078;
-	color: white;
-	font-size: 1.3em;
-}
-.info{
-	text-align: center;
-	padding: 5%;
-	margin-top: -10px;
-	background: #001F54;
-	color: white;
-	font-size: 1.3em;
-}
-footer{
-	text-align: center;
-	padding: 10%;
-	line-height: 3em;
-	word-spacing: 3px;
-	background: #0A1128;
-	margin-top: -10px;
-	color: white;
-}
-head{
+/*HEADER*/
+header{
+	top: 0;
+	padding: .5%;
+	background: #5AAA95;
+	width: 100%;
 	position: fixed;
+	z-index: 5;
+	overflow: hidden;
 }
-#paly{
-	color: white;
+#home_button{
+	padding-left: 1%;
 }
-.section{
-	background: #1282A2;
-	text-align: center;
+#image_icon_header{
+	float: right;
+	margin: 1%;
 }
-#race{
+/*---------------------------------------------*/
+/*Section1 - Tour de France*/
+.tour_section{
+	z-index: 0;
+	position: fixed;
 	width: 100%;
 }
-#name{
-	float: left;
-	position: absolute;
-	margin-top: 12.5%;
-	margin-left: 3.3%;
-}
-#type{
-	float: right;
-width: 10%;
-margin-left: 6%;
-margin-right: 4%;
-margin-top: 5%;
-}
-#words{
-	position: relative;
-	float: right;
-	word-spacing: 4300%;
-	margin-bottom: 2%;
-	margin-right: 6%;
-}
-.head{
-	float: left;
-	margin: 3%;
-}
-/*MOUNTAIN, ROAD, BEACH*/
-#banner{
+/*Tour race image link*/
+#tour_race{
 	width: 100%;
+}
+/*image-tour_logo*/
+#tour_info{
+	font-family: Montserrat;
+	width: 25%;
 	position: absolute;
-	z-index: -1;
+	top: 170px;
+	left: 100px;
+	background: #5AAA95;
+	padding: 3%;
+	border: 3px solid #5AAA95;
+	border-radius: 1000px;
+	font-size: 130%;
+	text-align: center;
 }
-.head1{
-position: absolute;
-margin: 3%;
-background: transparent;
-}
-.h1{
+/*--------------------------------------------------------------------*/
+/*Section 2 - Rampage*/
+.rampage_section{
+	z-index: 1
+	padding-top: 1448px;
 	position: relative;
-	float: right;
-	margin: 6% 3.5%;
+	width: 100%;
 }
-#namehome{
-	float: left;
+/*Rampage race image link*/
+#rampage_race{
+	width: 100%;
+}
+/*rampage information*/
+#rampage_info{
+	font-family: Montserrat;
+	width: 25%;
 	position: absolute;
-	margin-top: 12.5%;
-	margin-left: 5.7%;
+	top: 170px;
+	left: 100px;
+	background: #5AAA95;
+	padding: 3%;
+	border: 3px solid #5AAA95;
+	border-radius: 1000px;
+	font-size: 130%;
+	text-align: center;
+}
+/*---------------------------------------------------------------*/
+/*Section 3 - iditarod section*/
+.iditarod_section{
+	z-index: 2;
+	position: relative;
+	width: 100%;
+	margin-top: 800px;
+}
+/*Iditarod race image link*/
+#iditarod_race{
+	width: 100%;
+}
+/*race info iditarod*/
+#iditarod_info{
+	font-family: Montserrat;
+	width: 25%;
+	position: absolute;
+	top: 170px;
+	left: 700px;
+	background: #5AAA95;
+	padding: 3%;
+	border: 3px solid #5AAA95;
+	border-radius: 1000px;
+	font-size: 130%;
+	text-align: center;
+}
+/*------------------------------------------------------*/
+/*Footer*/
+footer{
+	z-index: 4;
+	margin-top: -150px;
+	position: relative;
+	text-align: center;
+	background: #5AAA95;
+	padding: 3%;
 	color: white;
+	font-family: Montserrat;
+	font-size: 130%;
 }
-.cbike1, .cbike2, .cbike3, .rbike1, .rbike2, .rbike3, .mbike1, .mbike2, .mbike3{
-	background: #034078;
+footer>a{
 	color: white;
-}
-/*MOUNTAIN*/
-.mbike1{
-	margin-top: 17%;
-	text-align: center;
-}
-#originmb, #h3mb{
-	padding: 3%;
-	width: 93%;
-	clear: left;
-	font-size: 2em;
-}
-#mb1, #mb2, #mb3{
-	display: inline;
-	width: 60%;
-}
-.mbike2, .mbike3{
-	text-align: center;
-}
-#originmb2, #h3mb2{
-	padding: 3%;
-	width: 93%;
-	clear: right;
-	font-size: 2em;
-}
-#originmb3, #h3mb3{
-	padding: 3%;
-	width: 93%;
-	clear: right;
-	font-size: 2em;
-}
-/*BEACH*/
-.cbike1{
-	margin-top: 17%;
-	text-align: center;
-}
-#origincb, #h3cb{
-	padding: 3%;
-	width: 93%;
-	clear: left;
-	font-size: 2em;
-}
-.cbike2, .cbike3{
-	text-align: center;
-}
-#origincb2, #h3cb2{
-	padding: 3%;
-	width: 93%;
-	clear: right;
-	font-size: 2em;
-}
-#origincb3, #h3cb3{
-	padding: 3%;
-	width: 93%;
-	clear: right;
-	font-size: 2em;
-}
-#cb1, #cb2, #cb3{
-	display: inline;
-	width: 60%;
-}
-/*ROAD*/
-.rbike1{
-	margin-top: 17%;
-	text-align: center;
-}
-#originrb, #h3rb{
-	padding: 3%;
-	width: 93%;
-	clear: left;
-	font-size: 2em;
-}
-.rbike2, .rbike3{
-	text-align: center;
-}
-#originrb2, #h3rb2{
-	padding: 3%;
-	width: 93%;
-	clear: right;
-	font-size: 2em;
-}
-#originrb3, #h3rb3{
-	padding: 3%;
-	width: 93%;
-	clear: right;
-	font-size: 2em;
-}
-#rb1, #rb2, #rb3{
-	display: inline;
-	width: 60%;
 }
