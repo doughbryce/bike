@@ -1,8 +1,25 @@
 *{
-font-family: 'Montserrat', sans-serif;
-overflow: auto;
-margin: 0px;
-/*border: solid;*/
+	margin: 0;
+	padding: 0;
+	/*border: solid;*/
+	overflow: auto;
+}
+/*HEADER*/
+header{
+	top: 0;
+	padding: .5%;
+	background: #5AAA95;
+	width: 100%;
+	position: fixed;
+	z-index: 5;
+	overflow: hidden;
+}
+#home_button{
+	padding-left: 1%;
+}
+#image_icon_header{
+	float: right;
+	margin: 1%;
 }
 .cbike1{
 	margin-top: 17%;
