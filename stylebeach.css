@@ -3,6 +3,7 @@
 	padding: 0;
 	border: solid;
 	overflow: auto;
+	font-family: Montserrat;
 }
 /*------------------------------------------------------------*/
 /*HEADER*/
@@ -26,7 +27,6 @@ header{
 /*Footer*/
 footer{
 	z-index: 4;
-	margin-top: -150px;
 	position: relative;
 	text-align: center;
 	background: #5AAA95;
@@ -39,3 +39,71 @@ footer>a{
 	color: white;
 }
 /*-----------------------------------------------------------------*/
+/*Section1 - origin*/
+#cruiser_section1{
+	margin-top: 120px;
+}
+.origin_image{
+	width: 58%;
+	margin: 1%;
+	float: right;
+}
+.origin_paragraph{
+	padding: 2%;
+	width: 33%;
+	margin: 1%;
+	margin-top: 180px;
+	float: left;
+	background: #5AAA95;
+	border: 2px solid #5AAA95;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 130%;
+}
+/*-----------------------------------------------------------------*/
+/*Section2 - types*/
+#cruiser_section2{
+	margin-top: 120px;
+}
+.type_image{
+	width: 58%;
+	margin: 1%;
+	float: left;
+}
+.type_paragraph{
+	padding: 2%;
+	width: 33%;
+	margin: 1%;
+	margin-top: 180px;
+	float: right;
+	background: #5AAA95;
+	border: 2px solid #5AAA95;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 130%;
+}
+/*-----------------------------------------------------------------*/
+/*Section1 - origin*/
+#cruiser_section3{
+	margin-top: 120px;
+}
+.skill_image{
+	width: 58%;
+	margin: 1%;
+	float: right;
+}
+.skill_paragraph{
+	padding: 2%;
+	width: 33%;
+	margin: 1%;
+	margin-top: 180px;
+	float: left;
+	background: #5AAA95;
+	border: 2px solid #5AAA95;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 130%;
+}
+
+
+
